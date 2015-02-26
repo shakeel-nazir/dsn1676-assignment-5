@@ -1,0 +1,59 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+-moz-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+text-size-adjust:100%;
+background-color: #d4d4d4;
+  }
+  
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.holer{
+    text-align: center;
+}
+
+form { 
+    background-color: #dfdede;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c3c3c3;
+    margin: 1rem;
+     border-radius: 10px;
+
+}
+
+input { 
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    width: 200px;
+    height: 30px;
+    padding: 0;
+    padding-top: 1rem;  
+}
+
+button { 
+    background-color: gray;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 30px;
+    position: absolute;
+   
+}
+
+h1 { 
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: 0;
+}

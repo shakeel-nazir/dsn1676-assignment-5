@@ -63,13 +63,12 @@ input {
 .x {
     width: 3%;
     position: relative;
-    left: 10rem;
     margin-top: .5rem;
-   left: 85%;
+   margin-left: 85%;
     
 }
 
-button { 
+.add { 
     background-color: lightgray;
     border-width: 1px;
     border-radius: 5px;
@@ -84,7 +83,7 @@ button {
    
 }
 
-button:hover  { 
+.add:hover  { 
     background-color:gray;
     color: white;
    

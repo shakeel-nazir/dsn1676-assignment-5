@@ -2,24 +2,21 @@ var $form = $('.form');
 var $name = $('.name');
 var $list = $('.list');
 
-
 $form.on('submit', function (e) {    
+e.preventDefault();
 
-    e.preventDefault();
-
-   
-    var $li = $('<li>').html($name.val());
-
-    var $button = $('<button class="x">X</button>' );
- 
-    $li.append($button);
-    $list.append($li);
-    $name.val('');
+var $li = $('<li>').html($name.val());
+var $nameDL = $('<button class="delete">X</button>');
     
+$nameDL.on('click', function () {
+$li.remove('li'); 
 });
 
-    $list.on('click',"li", function () {
-
-    $(this).toggleClass('js-highlight');
+$list.on('click', 'li', function () {
+$(this).addClass('js-line');
+});
     
+$li.append($nameDL);
+$list.prepend($li);
+$name.val('');
 });

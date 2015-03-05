@@ -22,4 +22,4 @@ $form.on('submit', function (e) {
 
     $(this).toggleClass('js-highlight');
     
-});h
+});

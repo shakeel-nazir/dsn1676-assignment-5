@@ -59,6 +59,13 @@ input {
     
 }
 
+.js-highlight { 
+    
+    color: gray;
+     text-decoration: line-through;
+    
+}
+
 
 .x {
     width: 3%;
